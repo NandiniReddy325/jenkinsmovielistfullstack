@@ -103,7 +103,7 @@ const MovieWatchlistManager = () => {
 
   return (
     <div className="movie-app">
-      <h1 className="app-title">🎬 My Movie Watchlist</h1>
+      <h1 className="app-title">My Movie Watchlist</h1>
 
       {message && (
         <div className={`msg-banner ${message.includes('❌') ? 'error' : 'success'}`}>
