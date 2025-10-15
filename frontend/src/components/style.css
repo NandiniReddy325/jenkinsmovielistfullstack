@@ -1,0 +1,147 @@
+.movie-app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #121212;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-title {
+  text-align: center;
+  color: #00bcd4;
+  margin-bottom: 25px;
+}
+
+.msg-banner {
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.msg-banner.success {
+  background: #1b5e20;
+}
+.msg-banner.error {
+  background: #c62828;
+}
+
+.movie-form {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.movie-form h2 {
+  margin-bottom: 10px;
+  color: #fbc02d;
+}
+
+.form-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.form-inputs input,
+.form-inputs select {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.form-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary,
+.btn-success,
+.btn-secondary {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-primary { background: #00bcd4; color: #fff; }
+.btn-success { background: #4caf50; color: #fff; }
+.btn-secondary { background: #757575; color: #fff; }
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.search-bar input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.movie-list {
+  display: grid;
+  gap: 15px;
+}
+
+.movie-card {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+.movie-card:hover {
+  transform: translateY(-3px);
+  background: #252525;
+}
+
+.movie-info h3 {
+  color: #00bcd4;
+  margin-bottom: 4px;
+}
+
+.status {
+  font-weight: 600;
+}
+.status.watched {
+  color: #4caf50;
+}
+.status.unwatched {
+  color: #f44336;
+}
+
+.movie-actions button {
+  border: none;
+  padding: 8px 12px;
+  margin-left: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-edit {
+  background: #4caf50;
+  color: #fff;
+}
+.btn-delete {
+  background: #e53935;
+  color: #fff;
+}
+
+.no-movies {
+  text-align: center;
+  color: #bbb;
+}
